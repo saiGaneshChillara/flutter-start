@@ -8,8 +8,9 @@ class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Settings Page"),
+      backgroundColor: Colors.blueAccent,
+      body: Center(
+        child: Text("Settings Page"),
       ),
     );
   }
